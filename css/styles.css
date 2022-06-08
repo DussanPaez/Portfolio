@@ -244,7 +244,26 @@ span {color: aqua;}
     border-radius: 20px;
     cursor: pointer;
     box-shadow: 1px 3px 11px 5px rgba(102, 331, 200, 69);
+}
 
+.btn_submit a:hover{
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    background-color: aqua;
+}
+
+.footer-content h2{
+    font-size: 3em;
+    
 }
 
 
