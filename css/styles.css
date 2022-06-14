@@ -203,23 +203,46 @@ span {color: aqua;}
 /* -------CONTACT-SECTION-------- */
 
 .contact-section {
-    background-color: #191c32;
+    background-color: #191c32;   
+}
+
+.contact-headings {
+    width: 100vw;
 }
 
 .contact-headings h2{
-    font-size: 3em;
-
+    font-size: 2.5em;
+    color: #fff;
+    text-align: center;
 }
 
+.contact-headings .divider{
+    margin: 0 392px;
+    width: 10vw;
+}
+
+
 .container-contact{
-    padding: 3em;
+    padding: 5em;
     margin: 0 auto;
+    display: flex; 
+    flex-direction: row-reverse;  
+    align-items: center;
+    gap: 50px; 
 }
 
 .container-contact img{
-    width: 750px;
-    height: 700px;
-    bottom: 0px;
+    width: 50vw;
+    min-width: 320px;
+    height: 100vh;
+}
+
+.contact-form h4{
+    color: #fff;
+    width: 30vw;
+    margin-top: 2em;
+    margin-left: 50px;
+
 }
 
 .form {
@@ -227,6 +250,7 @@ span {color: aqua;}
     flex-direction: column;
     width: 30vw;
     margin-top: 2em;
+    margin-left: 50px;
 }
 
 .form input {
